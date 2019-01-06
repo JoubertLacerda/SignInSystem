@@ -1,0 +1,6 @@
+C:\Users\Pinheiro\Documents\Visual Studio 2017\Projects\Android\GUEST_LogBOOK\GUEST_LogBOOK\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\Pinheiro\Documents\Visual Studio 2017\Projects\Android\GUEST_LogBOOK\GUEST_LogBOOK\obj\Debug\81\GUEST_LogBOOK.nuget.stamp
+C:\Users\Pinheiro\Documents\Visual Studio 2017\Projects\Android\GUEST_LogBOOK\GUEST_LogBOOK\obj\Debug\81\GUEST_LogBOOK.csprojAssemblyReference.cache
+C:\Users\Pinheiro\Documents\Visual Studio 2017\Projects\Android\GUEST_LogBOOK\GUEST_LogBOOK\obj\Debug\81\libraryimports.cache.stamp
+C:\Users\Pinheiro\Documents\Visual Studio 2017\Projects\Android\GUEST_LogBOOK\GUEST_LogBOOK\obj\Debug\81\res.flag
+C:\Users\Pinheiro\Documents\Visual Studio 2017\Projects\Android\GUEST_LogBOOK\GUEST_LogBOOK\obj\Debug\81\GUEST_LogBOOK.csproj.CoreCompileInputs.cache

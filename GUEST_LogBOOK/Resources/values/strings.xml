@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Guest Log Book</string>
+    <string name ="SignOut">Sign Out Page</string>
+    <string name="action_settings">Settings</string>
+    <string name ="SignIN">Sign IN page</string>
+  <string name="BackBTN">Back</string>
+  <!--Main page-->
+    <string name ="button1">Sign in</string>
+    <string name ="button2">Sign Out</string>
+  <!--Sign Out page-->
+    <string name ="FName">First Name</string>
+    <string name ="Lname">Last Name</string>
+    <string name="Number">No.</string>
+    <string name="TimeIN">IN At</string>
+    <string name="TimeOUT">OUT at</string>
+    <string name="Visiting">To See</string>
+  <!---Sign IN page-->
+    <string name ="GuestNumber">Visitor No.</string>
+    <string name ="ToSeeWho">Who are you here to see?</string>
+    <string name ="Register">Sign in and Save</string>
+</resources>
+ 
