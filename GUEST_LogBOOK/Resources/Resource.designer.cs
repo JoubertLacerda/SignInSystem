@@ -2345,11 +2345,8 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7f080034
 			public const int FUNCTION = 2131230772;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int Fname = 2131230902;
-			
 			// aapt resource value: 0x7f0800b5
-			public const int Lname = 2131230901;
+			public const int FullName = 2131230901;
 			
 			// aapt resource value: 0x7f080035
 			public const int META = 2131230773;
@@ -2363,14 +2360,17 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
+			// aapt resource value: 0x7f0800b7
+			public const int TimeIn = 2131230903;
+			
 			// aapt resource value: 0x7f0800b8
-			public const int TimeIn = 2131230904;
+			public const int TimeOut = 2131230904;
 			
 			// aapt resource value: 0x7f0800af
-			public const int TxtFname = 2131230895;
+			public const int TxtFName = 2131230895;
 			
 			// aapt resource value: 0x7f0800ae
-			public const int TxtGuestNo_ = 2131230894;
+			public const int TxtGuestNo = 2131230894;
 			
 			// aapt resource value: 0x7f0800b1
 			public const int TxtHereToSeeWho = 2131230897;
@@ -2378,8 +2378,8 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7f0800b0
 			public const int TxtLName = 2131230896;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int Visiting = 2131230903;
+			// aapt resource value: 0x7f0800b6
+			public const int Visiting = 2131230902;
 			
 			// aapt resource value: 0x7f08009e
 			public const int action0 = 2131230878;
@@ -3171,20 +3171,23 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7f09002b
 			public const int BackBTN = 2131296299;
 			
-			// aapt resource value: 0x7f09002e
-			public const int FName = 2131296302;
+			// aapt resource value: 0x7f090036
+			public const int FName = 2131296310;
 			
-			// aapt resource value: 0x7f090034
-			public const int GuestNumber = 2131296308;
+			// aapt resource value: 0x7f09002e
+			public const int FullName = 2131296302;
+			
+			// aapt resource value: 0x7f090033
+			public const int GuestNumber = 2131296307;
+			
+			// aapt resource value: 0x7f090037
+			public const int LName = 2131296311;
 			
 			// aapt resource value: 0x7f09002f
-			public const int Lname = 2131296303;
+			public const int Number = 2131296303;
 			
-			// aapt resource value: 0x7f090030
-			public const int Number = 2131296304;
-			
-			// aapt resource value: 0x7f090036
-			public const int Register = 2131296310;
+			// aapt resource value: 0x7f090035
+			public const int Register = 2131296309;
 			
 			// aapt resource value: 0x7f09002a
 			public const int SignIN = 2131296298;
@@ -3192,17 +3195,17 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7f090028
 			public const int SignOut = 2131296296;
 			
+			// aapt resource value: 0x7f090030
+			public const int TimeIN = 2131296304;
+			
 			// aapt resource value: 0x7f090031
-			public const int TimeIN = 2131296305;
+			public const int TimeOUT = 2131296305;
+			
+			// aapt resource value: 0x7f090034
+			public const int ToSeeWho = 2131296308;
 			
 			// aapt resource value: 0x7f090032
-			public const int TimeOUT = 2131296306;
-			
-			// aapt resource value: 0x7f090035
-			public const int ToSeeWho = 2131296309;
-			
-			// aapt resource value: 0x7f090033
-			public const int Visiting = 2131296307;
+			public const int Visiting = 2131296306;
 			
 			// aapt resource value: 0x7f090000
 			public const int abc_action_bar_home_description = 2131296256;

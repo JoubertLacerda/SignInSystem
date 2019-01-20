@@ -23,6 +23,8 @@ namespace GUEST_LogBOOK
             // Create your application here
             SetContentView(Resource.Layout.SignIN_Screen);
             BackBTN();
+            logged();
+
         }
 
         public void BackBTN()
@@ -34,30 +36,38 @@ namespace GUEST_LogBOOK
                 StartActivity(typeof(MainActivity));
             };
         }
-        public void GuestRegister()
+        public void logged()
         {
-            //First Name.
-            var Edit_Fname = FindViewById<EditText>(Resource.Id.TxtFname); 
-            //Last name.
-            var Edit_Lname = FindViewById<EditText>(Resource.Id.TxtLName);
-            //who is the guest here to see?.
-            var Edit_HereToSee = FindViewById<EditText>(Resource.Id.TxtHereToSeeWho);
-            //Visitor number,TODO this to be auto asigned
-            var GuestNo = FindViewById<TextView>(Resource.Id.TxtGuestNo);
-            //Time Visitor arrived.
-            var TimeIn = FindViewById<TextView>(Resource.Id.TimeIn);
+            // capture the information entered, saves it and sends it to the LogOut page to be displayed.
+            Button Register = FindViewById<Button>(Resource.Id.BTN_Register);
+            Register.Click += delegate
+            {
+                //First Name.
+                EditText TxtFname = FindViewById<EditText>(Resource.Id.TxtFName);
+                string FName = TxtFname.Text;
 
-           
-                Intent RegisterUser = new Intent(this, typeof(SignOUTscreen));
-            RegisterUser.PutExtra("First Name", Edit_Fname.Text);
-            RegisterUser.PutExtra("Last Name", Edit_Lname.Text);
-            RegisterUser.PutExtra("Here to See", Edit_HereToSee.Text);
-            RegisterUser.PutExtra("Guest No.", GuestNo.Text);
-            RegisterUser.PutExtra("Arrived At", TimeIn.Text);
-            
+                //Last name.
+                EditText TxtLName = FindViewById<EditText>(Resource.Id.TxtLName);
+                string LName = TxtLName.Text;
 
-            
-            
+                //who is the guest here to see?.
+                EditText TxtHereToSeeWho = FindViewById<EditText>(Resource.Id.TxtHereToSeeWho);
+                string Visiting = TxtHereToSeeWho.Text;
+
+                //Visitor number,TODO this to be auto asigned
+                var GuestNo = FindViewById<TextView>(Resource.Id.TxtGuestNo);
+                //Time Visitor arrived.
+                var TimeIn = FindViewById<TextView>(Resource.Id.TimeIn);
+
+                //create a toast notification to confirm the submission
+                Android.Widget.Toast.MakeText(this, "Logged In", ToastLength.Short).Show();
+
+                //clear text boxes of the text after info was entered and saved.
+                TxtFname.Text = "";
+                TxtLName.Text = "";
+                TxtHereToSeeWho.Text = "";
+            };
         }
+       
     }
 }

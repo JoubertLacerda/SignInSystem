@@ -2953,18 +2953,18 @@ containing a value of this type.
         public static int BTN_signOUT=0x7f08008c;
         public static int CTRL=0x7f080033;
         public static int FUNCTION=0x7f080034;
-        public static int Fname=0x7f0800b6;
-        public static int Lname=0x7f0800b5;
+        public static int FullName=0x7f0800b5;
         public static int META=0x7f080035;
         public static int No=0x7f0800b4;
         public static int SHIFT=0x7f080036;
         public static int SYM=0x7f080037;
-        public static int TimeIn=0x7f0800b8;
-        public static int TxtFname=0x7f0800af;
-        public static int TxtGuestNo_=0x7f0800ae;
+        public static int TimeIn=0x7f0800b7;
+        public static int TimeOut=0x7f0800b8;
+        public static int TxtFName=0x7f0800af;
+        public static int TxtGuestNo=0x7f0800ae;
         public static int TxtHereToSeeWho=0x7f0800b1;
         public static int TxtLName=0x7f0800b0;
-        public static int Visiting=0x7f0800b7;
+        public static int Visiting=0x7f0800b6;
         public static int action0=0x7f08009e;
         public static int action_bar=0x7f08007c;
         public static int action_bar_activity_content=0x7f080001;
@@ -3219,21 +3219,22 @@ containing a value of this type.
     }
     public static final class string {
         public static int BackBTN=0x7f09002b;
+        public static int FName=0x7f090036;
         /** Sign Out page
          */
-        public static int FName=0x7f09002e;
+        public static int FullName=0x7f09002e;
         /** -Sign IN page
          */
-        public static int GuestNumber=0x7f090034;
-        public static int Lname=0x7f09002f;
-        public static int Number=0x7f090030;
-        public static int Register=0x7f090036;
+        public static int GuestNumber=0x7f090033;
+        public static int LName=0x7f090037;
+        public static int Number=0x7f09002f;
+        public static int Register=0x7f090035;
         public static int SignIN=0x7f09002a;
         public static int SignOut=0x7f090028;
-        public static int TimeIN=0x7f090031;
-        public static int TimeOUT=0x7f090032;
-        public static int ToSeeWho=0x7f090035;
-        public static int Visiting=0x7f090033;
+        public static int TimeIN=0x7f090030;
+        public static int TimeOUT=0x7f090031;
+        public static int ToSeeWho=0x7f090034;
+        public static int Visiting=0x7f090032;
         public static int abc_action_bar_home_description=0x7f090000;
         public static int abc_action_bar_up_description=0x7f090001;
         public static int abc_action_menu_overflow_description=0x7f090002;

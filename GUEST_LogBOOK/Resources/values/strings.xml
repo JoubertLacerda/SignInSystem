@@ -8,15 +8,16 @@
     <string name ="button1">Sign in</string>
     <string name ="button2">Sign Out</string>
   <!--Sign Out page-->
-    <string name ="FName">First Name</string>
-    <string name ="Lname">Last Name</string>
+    <string name ="FullName">Visitors Name</string>
     <string name="Number">No.</string>
-    <string name="TimeIN">IN At</string>
-    <string name="TimeOUT">OUT at</string>
-    <string name="Visiting">To See</string>
+    <string name="TimeIN">Time In</string>
+    <string name="TimeOUT">Time Out</string>
+    <string name="Visiting">Visiting</string>
   <!---Sign IN page-->
     <string name ="GuestNumber">Visitor No.</string>
     <string name ="ToSeeWho">Who are you here to see?</string>
     <string name ="Register">Sign in and Save</string>
+  <string name="FName">First Name</string>
+  <string name="LName">Last Name</string>
 </resources>
  

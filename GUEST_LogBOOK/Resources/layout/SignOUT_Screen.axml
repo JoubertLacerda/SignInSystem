@@ -11,20 +11,14 @@
 		android:text="@string/Number"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_weight="20"
-		android:id="@+id/No" />
+		android:layout_weight="22"
+		android:id="@+id/No" />	
 	<TextView
-		android:text="@string/Lname"
+		android:text="@string/FullName"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_weight="20"
-		android:id="@+id/Lname" />
-	<TextView
-		android:text="@string/FName"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_weight="20"
-		android:id="@+id/Fname" />
+		android:layout_weight="17"
+		android:id="@+id/FullName" />
 	<TextView
 		android:text="@string/Visiting"
 		android:layout_width="match_parent"
@@ -37,4 +31,10 @@
 		android:layout_height="wrap_content"
 		android:layout_weight="20"
 		android:id="@+id/TimeIn" />
+	<TextView
+		android:text=""
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="10"
+		android:id="@+id/TimeOut" />
 </LinearLayout>

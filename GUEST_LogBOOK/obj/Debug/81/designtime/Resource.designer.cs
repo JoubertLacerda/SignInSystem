@@ -2468,11 +2468,11 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
-			// aapt resource value: 0x7F010012
-			public const int Fname = 2130771986;
-			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
+			
+			// aapt resource value: 0x7F010011
+			public const int FullName = 2130771985;
 			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
@@ -2515,9 +2515,6 @@ namespace GUEST_LogBOOK
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
-			
-			// aapt resource value: 0x7F010011
-			public const int Lname = 2130771985;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2711,8 +2708,11 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
 			
+			// aapt resource value: 0x7F010013
+			public const int TimeIn = 2130771987;
+			
 			// aapt resource value: 0x7F010014
-			public const int TimeIn = 2130771988;
+			public const int TimeOut = 2130771988;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int title = 2131492890;
@@ -2748,10 +2748,10 @@ namespace GUEST_LogBOOK
 			public const int transition_transform = 2131493003;
 			
 			// aapt resource value: 0x7F010005
-			public const int TxtFname = 2130771973;
+			public const int TxtFName = 2130771973;
 			
 			// aapt resource value: 0x7F010004
-			public const int TxtGuestNo. = 2130771972;
+			public const int TxtGuestNo = 2130771972;
 			
 			// aapt resource value: 0x7F010007
 			public const int TxtHereToSeeWho = 2130771975;
@@ -2771,8 +2771,8 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7F0C008F
 			public const int visible = 2131493007;
 			
-			// aapt resource value: 0x7F010013
-			public const int Visiting = 2130771987;
+			// aapt resource value: 0x7F010012
+			public const int Visiting = 2130771986;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -3168,17 +3168,20 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F050009
-			public const int FName = 2131034121;
+			// aapt resource value: 0x7F050017
+			public const int FName = 2131034135;
 			
-			// aapt resource value: 0x7F050015
-			public const int GuestNumber = 2131034133;
+			// aapt resource value: 0x7F050009
+			public const int FullName = 2131034121;
+			
+			// aapt resource value: 0x7F050014
+			public const int GuestNumber = 2131034132;
+			
+			// aapt resource value: 0x7F050018
+			public const int LName = 2131034136;
 			
 			// aapt resource value: 0x7F050010
-			public const int Lname = 2131034128;
-			
-			// aapt resource value: 0x7F050011
-			public const int Number = 2131034129;
+			public const int Number = 2131034128;
 			
 			// aapt resource value: 0x7F150021
 			public const int password_toggle_content_description = 2132082721;
@@ -3195,8 +3198,8 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7F150025
 			public const int path_password_strike_through = 2132082725;
 			
-			// aapt resource value: 0x7F050017
-			public const int Register = 2131034135;
+			// aapt resource value: 0x7F050016
+			public const int Register = 2131034134;
 			
 			// aapt resource value: 0x7F150026
 			public const int search_menu_title = 2132082726;
@@ -3210,17 +3213,17 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
 			
+			// aapt resource value: 0x7F050011
+			public const int TimeIN = 2131034129;
+			
 			// aapt resource value: 0x7F050012
-			public const int TimeIN = 2131034130;
+			public const int TimeOUT = 2131034130;
+			
+			// aapt resource value: 0x7F050015
+			public const int ToSeeWho = 2131034133;
 			
 			// aapt resource value: 0x7F050013
-			public const int TimeOUT = 2131034131;
-			
-			// aapt resource value: 0x7F050016
-			public const int ToSeeWho = 2131034134;
-			
-			// aapt resource value: 0x7F050014
-			public const int Visiting = 2131034132;
+			public const int Visiting = 2131034131;
 			
 			static String()
 			{

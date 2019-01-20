@@ -1,0 +1,2 @@
+android.app.Application
+GUEST_LogBOOK.GUEST_LogBOOK

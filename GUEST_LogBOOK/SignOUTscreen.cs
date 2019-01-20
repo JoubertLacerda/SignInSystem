@@ -21,6 +21,22 @@ namespace GUEST_LogBOOK
 
             // Create your application here
             SetContentView(Resource.Layout.SignOUT_Screen);
+            Registered_Users();
+        }
+
+        public void Registered_Users ()
+        {
+            string FirstName = Intent.GetStringExtra("First Name" ?? "Info. not provided");
+            string LastName = Intent.GetStringExtra("Last Name" ?? "Info. not provided");
+            string HereToSee = Intent.GetStringExtra("Here To See" ?? "Info. not provided");
+
+            var Fname = FindViewById<TextView>(Resource.Id.TxtFName);
+            var Lname = FindViewById<TextView>(Resource.Id.TxtLName);
+            var ToSee = FindViewById<TextView>(Resource.Id.TxtHereToSeeWho);
+
+            Fname.Text = FirstName;
+            Lname.Text = LastName;
+            ToSee.Text = HereToSee;
         }
     }
 }
