@@ -2964,6 +2964,7 @@ containing a value of this type.
         public static final int TxtGuestNo=0x7f0800ae;
         public static final int TxtHereToSeeWho=0x7f0800b1;
         public static final int TxtLName=0x7f0800b0;
+        public static final int USERINFO=0x7f0800b9;
         public static final int Visiting=0x7f0800b6;
         public static final int action0=0x7f08009e;
         public static final int action_bar=0x7f08007c;
@@ -3046,9 +3047,9 @@ containing a value of this type.
         public static final int line3=0x7f080018;
         public static final int listMode=0x7f08001d;
         public static final int list_item=0x7f080061;
-        public static final int masked=0x7f0800bb;
+        public static final int masked=0x7f0800bc;
         public static final int media_actions=0x7f0800a1;
-        public static final int message=0x7f0800b9;
+        public static final int message=0x7f0800ba;
         public static final int middle=0x7f080031;
         public static final int mini=0x7f080053;
         public static final int multiply=0x7f080028;
@@ -3131,7 +3132,7 @@ containing a value of this type.
         public static final int up=0x7f080009;
         public static final int useLogo=0x7f080026;
         public static final int view_offset_helper=0x7f080016;
-        public static final int visible=0x7f0800ba;
+        public static final int visible=0x7f0800bb;
         public static final int withText=0x7f08003c;
         public static final int wrap_content=0x7f08002e;
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using SQLite;
 using System.Text;
 
 using Android.App;
@@ -9,27 +10,33 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using SQLite;
 
 namespace GUEST_LogBOOK
 {
-     class People
-    {    
-        public int VisitorNo { get; set; }
+    class People
+    {
+        int VisitorNo { get; set; }
         public string FName { get; set; }
-        public string Lname { get; set; }
+        public string LName { get; set; }
         public string WhoToSee { get; set; }
 
-        //public Visitors(int No, string FullName, string Visiting)
-        //{
-        //    No = VisitorNo;
-        //    FullName = FName + Lname;
-        //    Visiting = WhoToSee;
-        //}
+        public People( string fName, string lname, string Visiting)
+        {
+            //constructor 
+           // VisitorNo = No;
+            FName = fName;
+            LName = lname;
+            WhoToSee = Visiting;
+        }
+
+        public People()
+        {
+
+        }
+
         public override string ToString()
         {
-            return VisitorNo +""+ FName +""+ Lname +""+ WhoToSee;
+            return VisitorNo+" "+FName+" "+LName+" "+WhoToSee;
         }
     }
-   
 }

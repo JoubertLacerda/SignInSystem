@@ -64,7 +64,6 @@ C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\links
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\GUEST_LogBOOK.csprojAssemblyReference.cache
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\android\assets\GUEST_LogBOOK.pdb
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\android\assets\Mono.Android.pdb
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\android\assets\Mono.Security.pdb
@@ -76,3 +75,4 @@ C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\andro
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\android\assets\System.Xml.pdb
+C:\Users\Pinheiro\Documents\GitHub\SignInSystem\GUEST_LogBOOK\obj\Debug\81\GUEST_LogBOOK.csprojAssemblyReference.cache

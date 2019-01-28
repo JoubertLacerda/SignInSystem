@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SQLite;
+using System.IO;
 
 namespace GUEST_LogBOOK
 {   
@@ -42,9 +40,18 @@ namespace GUEST_LogBOOK
             Button Register = FindViewById<Button>(Resource.Id.BTN_Register);
             Register.Click += delegate
             {
+                // path string to the DB file.
+                string DbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Log.db");
+
+                //conn. to the DB.
+                var LogDB = new SQLiteConnection(DbPath);
+
+                //create a Table.
+                LogDB.CreateTable<People>();
+
                 //First Name.
-                EditText TxtFname = FindViewById<EditText>(Resource.Id.TxtFName);
-                string FName = TxtFname.Text;
+                EditText TxtFName = FindViewById<EditText>(Resource.Id.TxtFName);
+                string FName = TxtFName.Text;
 
                 //Last name.
                 EditText TxtLName = FindViewById<EditText>(Resource.Id.TxtLName);
@@ -55,19 +62,25 @@ namespace GUEST_LogBOOK
                 string Visiting = TxtHereToSeeWho.Text;
 
                 //Visitor number,TODO this to be auto asigned
-                var GuestNo = FindViewById<TextView>(Resource.Id.TxtGuestNo);
+                var GuestNo =FindViewById<TextView>(Resource.Id.TxtGuestNo);// TODO this needs to be autoincremented.
+
                 //Time Visitor arrived.
-                var TimeIn = FindViewById<TextView>(Resource.Id.TimeIn);
+                var TimeIn = FindViewById<TextView>(Resource.Id.TimeIn);// TODO: this should take current time of device and save it, same should be done to the TIME OUT.
 
                 //create a toast notification to confirm the submission
                 Android.Widget.Toast.MakeText(this, "Logged In", ToastLength.Short).Show();
 
+                //create new contact.
+                People NewGuest = new People(FName, LName, Visiting);
+
+                //store new contact into table.
+                LogDB.Insert(NewGuest);
+
                 //clear text boxes of the text after info was entered and saved.
-                TxtFname.Text = "";
+                TxtFName.Text = "";
                 TxtLName.Text = "";
                 TxtHereToSeeWho.Text = "";
             };
         }
-       
     }
 }

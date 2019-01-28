@@ -2765,6 +2765,9 @@ namespace GUEST_LogBOOK
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
+			// aapt resource value: 0x7F010015
+			public const int USERINFO = 2130771989;
+			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
 			
